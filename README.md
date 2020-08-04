@@ -15,9 +15,9 @@ If the user clicks on the icon, a PUT request is sent to the database, and the i
 Just like the chrome bookmarking function, but **without the rate-limits** :-)
 
 ## Backend
-The backend is hosted on a Ubuntu container, and built using sqlite, Flask & tortoise.
+The backend is hosted on a Ubuntu container, and built using `sqlite`, `Flask` & `tortoise`.
 
 ## Improvements
 - Needs to implement unit-testing, integration testing.
-  - Tried out jest-chrome as a mock of the chrome API but ran into some issues, need to figure out workarounds
+  - Tried out `jest-chrome` as a mock of the `chrome API` but ran into some issues, need to figure out workarounds
 - Does not offer ability to remove bookmarks from database.
