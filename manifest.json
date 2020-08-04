@@ -1,0 +1,19 @@
+{
+  "manifest_version": 2,
+
+  "name": "chrome-bookmark-sync",
+  "author": "Nanshan Li",
+  "description": "Chrome Extension for syncing bookmarks between users.",
+  "version": "0.0",
+  "background":{
+    "scripts": ["bookmark.js"]
+  },
+
+
+  "browser_action": {
+   "default_icon": "src/black-star.png"
+  },
+  "permissions": [
+   "tabs"
+   ]
+}
